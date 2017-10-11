@@ -4,7 +4,7 @@ class Namer
     @name = name
   end
 
-  def greet
-    puts "Hello #{@name}"
+  def greet(greeting = 'Hello')
+    puts "#{greeting} #{@name}"
   end
 end
