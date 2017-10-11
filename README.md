@@ -15,3 +15,9 @@ You can optionally send a custom greeting
 ```
 person.greet('Happy birthday')
 ```
+
+# Command line usage
+From the command line, you can run:
+```
+$ ruby app.rb
+```
