@@ -7,6 +7,11 @@ Demo of using git for version control
 Load and use the Namer class
 
 ```
-name = Namer.new('Soumya')
-name.greet
+person = Namer.new('Soumya')
+person.greet
+```
+
+You can optionally send a custom greeting
+```
+person.greet('Happy birthday')
 ```
