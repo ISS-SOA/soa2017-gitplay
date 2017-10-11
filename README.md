@@ -20,4 +20,5 @@ person.greet('Happy birthday')
 From the command line, you can run:
 ```
 $ ruby app.rb
+<asks for your name and gives output>
 ```
