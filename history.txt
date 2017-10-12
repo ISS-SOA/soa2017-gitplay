@@ -1,0 +1,156 @@
+*   2514c2e (HEAD -> history, origin/master, master) Merge branch 'app_cmdline' (Soumya Ray on 2017-10-11)
+|\  
+| * f139b1c (origin/app_cmdline, app_cmdline) Update command line usage with output info (Soumya Ray on 2017-10-11)
+* | 3645c5c Update README with app info (Soumya Ray on 2017-10-11)
+|/  
+*   609a779 Merge branch 'app_cmdline' (Soumya Ray on 2017-10-11)
+|\  
+| * 47cc528 Update README with command line usage (Soumya Ray on 2017-10-11)
+| * b1754af Created app file (Soumya Ray on 2017-10-11)
+* | 7f0ca37 (origin/custom_greet, custom_greet) Update README with custom greeting instructions (Soumya Ray on 2017-10-11)
+* | b08a459 Allow custom greetings (Soumya Ray on 2017-10-11)
+|/  
+* a63ab6c Updated README with usage info (Soumya Ray on 2017-10-11)
+* e15f460 Created library file called namer.rb (Soumya Ray on 2017-10-11)
+* cef845b First commit; created a README (Soumya Ray on 2017-10-11)
+
+  
+mkdir soa2017-gitplay
+cd soa2017-gitplay/
+ls
+git init
+ls
+ls -a
+git status
+git status
+code .
+ls
+git status
+git add README.md
+git status
+git commit -m "First commit; created a README"
+git status
+git log
+ls ~/.gitconfig 
+cat ~/.gitconfig 
+git log
+ls -a
+cd .git
+ls
+ls objects/
+git log
+cd ce
+ls
+cd objects/
+ls
+cd ce/
+ls
+git log
+ls
+ls -al
+cat f845be23d33abaa0921ccd76ef761442512103 
+ls
+cd ..
+ls
+cd ..
+cd ..
+ls
+git log
+git l
+mdkir lib
+mkdir lib
+s
+ls
+ls
+ls lib
+git add .
+git status
+git commit -m "Created library file called namer.rb"
+git log
+git l
+git checkout cef845b
+git l
+ls
+git l
+git checkout master
+ls
+git status
+git add .
+git status
+git commit -m "Updated README with usage info"
+git log
+git l
+git status
+git l
+git checkout cef845b
+ls
+ls
+ls
+ls
+git checkout -b app_cmdline
+git l
+ruby app.rb 
+git add .
+git status
+git commit -m "Created app file"
+git l
+git checkout master 
+ls
+git checkout -b custom_greet
+git add .
+git status
+git commit -m "Allow custom greetings"
+git l
+git add .
+git commit -m "Update README with custom greeting instructions"
+git l
+git checkout master
+git merge custom_greet 
+git l
+git checkout custom_greet 
+git l
+ls
+ls
+git checkout app_cmdline 
+ls
+git add .
+git status
+git commit -m "Update README with command line usage"
+git l
+git checkout master
+git merge app_cmdline 
+ls
+git l
+git checkout app_cmdline 
+git merge master
+git l
+git add .
+git commit -m "Update command line usage with output info"
+git lh
+git checkout master 
+ls
+git add .
+git commit -m "Update README with app info"
+git l
+git merge app_cmdline 
+emacs README.md 
+nano README.md 
+ls
+git status
+git add README.md
+git status
+git commit
+git l
+git remote origin git@github.com:ISS-SOA/soa2017-gitplay.git
+git remote add origin git@github.com:ISS-SOA/soa2017-gitplay.git
+git remote
+git -v remote
+git remote -v
+git push -u origin master
+ls
+git branch
+git checkout app_cmdline 
+git push
+git push origin app_cmdline 
+git checkout custom_greet 
+git push origin custom_greet
