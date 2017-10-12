@@ -1,3 +1,7 @@
+# History of this project
+
+## Tree view
+
 *   2514c2e (HEAD -> history, origin/master, master) Merge branch 'app_cmdline' (Soumya Ray on 2017-10-11)
 |\  
 | * f139b1c (origin/app_cmdline, app_cmdline) Update command line usage with output info (Soumya Ray on 2017-10-11)
@@ -14,6 +18,7 @@
 * e15f460 Created library file called namer.rb (Soumya Ray on 2017-10-11)
 * cef845b First commit; created a README (Soumya Ray on 2017-10-11)
 
+## Commands
   
 mkdir soa2017-gitplay
 cd soa2017-gitplay/
